@@ -1,7 +1,7 @@
 
 # 🤖 AI & HUMAN JOBS IMPACT ANALYSIS 
 
-### Project Name : ai_impact_on_jobs
+## Project Name : ai_impact_on_jobs
 
 **Objective** :
 Analyze the impact of Artificial Intelligence on the job market by comparing
@@ -12,18 +12,18 @@ automation levels, and future growth projections (2024–2030).
 
 ai_impact_on_jobs/
 |
-|- ai_human_jobs_analysis.sql      | Main SQL analysis file
+|-- ai_human_jobs_analysis.sql      | Main SQL analysis file
 |
-|- database/
-|   |- schema.sql                 | CREATE DATABASE & TABLE scripts
-|   |- data/
-|       |- ai_jobs.csv             | AI jobs table
-|       |- human_jobs.csv          | Human jobs table
+|-- database/
+|   |-- schema.sql                 | CREATE DATABASE & TABLE scripts
+|   |-- data/
+|       |-- ai_jobs.csv             | AI jobs table
+|       |-- human_jobs.csv          | Human jobs table
 |
-|- screenshots/
+|-- screenshots/
 |   |-- query_outputs.png          | Sample query results
 |
-|- README.md
+|-- README.md
 
 
 ## 🗄️ Database Description :
