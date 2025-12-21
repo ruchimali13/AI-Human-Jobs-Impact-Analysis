@@ -3,7 +3,7 @@
 
 ## Project Name : ai_impact_on_jobs
 
-#### Objective :
+### Objective :
 Analyze the impact of Artificial Intelligence on the job market by comparing
 AI-driven roles and traditional human jobs across industries, salaries,
 automation levels, and future growth projections (2024–2030).
