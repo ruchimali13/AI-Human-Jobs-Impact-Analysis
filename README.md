@@ -1,7 +1,7 @@
 
 # 🤖 AI & HUMAN JOBS IMPACT ANALYSIS 
 
-### Project Name : ai_impact_on_jobs_db
+### Project Name : ai_impact_on_jobs
 
 **Objective** :
 Analyze the impact of Artificial Intelligence on the job market by comparing
@@ -28,7 +28,7 @@ ai_impact_on_jobs/
 
 ## 🗄️ DATABASE DESCRIPTION
 
-Database Name : ai_impact_on_jobs_db
+**Database Name** : ai_impact_on_jobs_db
 
 The database contains two tables:
 
@@ -64,12 +64,12 @@ The database contains two tables:
 
 1️⃣ CREATE DATABASE & TABLES
 
--- Run in MySQL:
+#### Run in MySQL:
 
 - CREATE DATABASE ai_impact_on_jobs_db;
 - USE ai_impact_on_jobs_db;
 
--- Execute table creation scripts from:
+#### Execute table creation scripts from:
 - schema.sql
 
 --------------------------------------------------
@@ -94,26 +94,27 @@ This will generate insights on:
 - Future job growth
 
 ## 📊 ANALYSIS PERFORMED
+### SQL Analysis includes :
 
-✔ SALARY ANALYSIS
+#### ✔ SALARY ANALYSIS
 - Top 5 highest-paying AI jobs
 - Highest-paying job (AI + Human combined)
 - Average salary comparison (AI vs Human)
 
-✔ INDUSTRY INSIGHTS
+#### ✔ INDUSTRY INSIGHTS
 - Human jobs count by industry
 - Industries most affected by AI
 - Industry overlap between AI and human roles
 
-✔ AUTOMATION ANALYSIS
+#### ✔ AUTOMATION ANALYSIS
 - AI jobs grouped by automation level
 - High automation roles and salary impact
 
-✔ JOB GROWTH PROJECTIONS
+#### ✔ JOB GROWTH PROJECTIONS
 - Jobs growing from 2024 → 2030
 - Total job openings growth for AI roles
 
-✔ ADVANCED SQL TECHNIQUES
+#### ✔ ADVANCED SQL TECHNIQUES
 - INNER JOIN & LEFT JOIN
 - Subqueries
 - Common Table Expressions (CTEs)
