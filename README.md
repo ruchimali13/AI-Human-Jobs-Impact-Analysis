@@ -62,7 +62,7 @@ ai_impact_on_jobs/
 
 ## 🛠️ How to set up 
 
-#### 1️⃣ CREATE DATABASE & TABLES
+#### 1️⃣ Create Database and Tables
 
 #### Run in MySQL:
 
@@ -84,10 +84,10 @@ ai_impact_on_jobs/
 
 #### 3️⃣ Run Analysis Queries
 
-Execute:
+**Execute:**
 ai_human_jobs_analysis.sql
 
-This will generate insights on:
+**This will generate insights on:**
 - Salaries
 - Automation levels
 - Industry trends
@@ -96,25 +96,25 @@ This will generate insights on:
 ## 📊 ANALYSIS PERFORMED
 ### SQL Analysis includes :
 
-#### ✔ SALARY ANALYSIS
+#### ✔ Salary Analysis
 - Top 5 highest-paying AI jobs
 - Highest-paying job (AI + Human combined)
 - Average salary comparison (AI vs Human)
 
-#### ✔ INDUSTRY INSIGHTS
+#### ✔ Industry insights
 - Human jobs count by industry
 - Industries most affected by AI
 - Industry overlap between AI and human roles
 
-#### ✔ AUTOMATION ANALYSIS
+#### ✔ Automation Analysis
 - AI jobs grouped by automation level
 - High automation roles and salary impact
 
-#### ✔ JOB GROWTH PROJECTIONS
+#### ✔ Job Growth Projections
 - Jobs growing from 2024 → 2030
 - Total job openings growth for AI roles
 
-#### ✔ ADVANCED SQL TECHNIQUES
+#### ✔ Advanced Sql Techniques
 - INNER JOIN & LEFT JOIN
 - Subqueries
 - Common Table Expressions (CTEs)
