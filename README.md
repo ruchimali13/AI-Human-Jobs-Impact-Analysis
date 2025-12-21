@@ -96,25 +96,25 @@ ai_human_jobs_analysis.sql
 ## 📊 ANALYSIS PERFORMED
 ### SQL Analysis includes :
 
-#### ✔ Salary Analysis
+### ✔ Salary Analysis
 - Top 5 highest-paying AI jobs
 - Highest-paying job (AI + Human combined)
 - Average salary comparison (AI vs Human)
 
-#### ✔ Industry insights
+### ✔ Industry insights
 - Human jobs count by industry
 - Industries most affected by AI
 - Industry overlap between AI and human roles
 
-#### ✔ Automation Analysis
+### ✔ Automation Analysis
 - AI jobs grouped by automation level
 - High automation roles and salary impact
 
-#### ✔ Job Growth Projections
+### ✔ Job Growth Projections
 - Jobs growing from 2024 → 2030
 - Total job openings growth for AI roles
 
-#### ✔ Advanced Sql Techniques
+### ✔ Advanced Sql Techniques
 - INNER JOIN & LEFT JOIN
 - Subqueries
 - Common Table Expressions (CTEs)
