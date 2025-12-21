@@ -136,10 +136,10 @@ ai_human_jobs_analysis.sql
 
 ## 🧾 Conclusion :
 
-This project demonstrates how AI is reshaping the workforce while highlighting
+- This project demonstrates how AI is reshaping the workforce while highlighting
 the continued importance of human skills.
 
-It serves as a strong SQL analytics project for students, analysts, and
+- It serves as a strong SQL analytics project for students, analysts, and
 organizations planning for the future of work.
 
 ## ⭐ END OF README
