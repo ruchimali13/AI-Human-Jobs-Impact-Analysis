@@ -64,21 +64,21 @@ The database contains two tables:
 
 1️⃣ CREATE DATABASE & TABLES
 
-Run in MySQL:
+-- Run in MySQL:
 
-CREATE DATABASE ai_impact_on_jobs_db;
-USE ai_impact_on_jobs_db;
+- CREATE DATABASE ai_impact_on_jobs_db;
+- USE ai_impact_on_jobs_db;
 
-Execute table creation scripts from:
-schema.sql
+-- Execute table creation scripts from:
+- schema.sql
 
 --------------------------------------------------
 
 2️⃣ INSERT JOB DATA
 
-| Import CSV files using MySQL Workbench
-| OR
-| Insert records manually using SQL INSERT statements
+- Import CSV files using MySQL Workbench
+                    OR
+- Insert records manually using SQL INSERT statements
 
 --------------------------------------------------
 
@@ -88,50 +88,50 @@ Execute:
 ai_human_jobs_analysis.sql
 
 This will generate insights on:
-| Salaries
-| Automation levels
-| Industry trends
-| Future job growth
+- Salaries
+- Automation levels
+- Industry trends
+- Future job growth
 
 ## 📊 ANALYSIS PERFORMED
 
 ✔ SALARY ANALYSIS
-| Top 5 highest-paying AI jobs
-| Highest-paying job (AI + Human combined)
-| Average salary comparison (AI vs Human)
+- Top 5 highest-paying AI jobs
+- Highest-paying job (AI + Human combined)
+- Average salary comparison (AI vs Human)
 
 ✔ INDUSTRY INSIGHTS
-| Human jobs count by industry
-| Industries most affected by AI
-| Industry overlap between AI and human roles
+- Human jobs count by industry
+- Industries most affected by AI
+- Industry overlap between AI and human roles
 
 ✔ AUTOMATION ANALYSIS
-| AI jobs grouped by automation level
-| High automation roles and salary impact
+- AI jobs grouped by automation level
+- High automation roles and salary impact
 
 ✔ JOB GROWTH PROJECTIONS
-| Jobs growing from 2024 → 2030
-| Total job openings growth for AI roles
+- Jobs growing from 2024 → 2030
+- Total job openings growth for AI roles
 
 ✔ ADVANCED SQL TECHNIQUES
-| INNER JOIN & LEFT JOIN
-| Subqueries
-| Common Table Expressions (CTEs)
-| Aggregations & UNION queries
+- INNER JOIN & LEFT JOIN
+- Subqueries
+- Common Table Expressions (CTEs)
+- Aggregations & UNION queries
 
 ## 📈 SAMPLE INSIGHTS
 
-| AI roles in technology, finance, and healthcare dominate high salaries
-| Human-centric roles remain essential in healthcare, education, construction
-| AI job openings are projected to grow faster than human roles
-| Hybrid roles combining AI expertise and human judgment are most lucrative
-| AI disruption is highest in tech, healthcare, finance, manufacturing
+- AI roles in technology, finance, and healthcare dominate high salaries
+- Human-centric roles remain essential in healthcare, education, construction
+- AI job openings are projected to grow faster than human roles
+- Hybrid roles combining AI expertise and human judgment are most lucrative
+- AI disruption is highest in tech, healthcare, finance, manufacturing
 
 ## 🛠️ TOOLS & TECHNIQUE USED
 
-| Database       : MySQL
-| Query Language : SQL
-| Techniques     : Joins, CTEs, Subqueries, Aggregations
+- Database       : MySQL
+- Query Language : SQL
+- Techniques     : Joins, CTEs, Subqueries, Aggregations
 
 ## 🧾 CONCLUSION
 
