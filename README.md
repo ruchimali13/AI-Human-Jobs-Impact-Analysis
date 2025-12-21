@@ -8,29 +8,29 @@ Analyze the impact of Artificial Intelligence on the job market by comparing
 AI-driven roles and traditional human jobs across industries, salaries,
 automation levels, and future growth projections (2024–2030).
 
-## 📂 PROJECT STRUCTURE
+## 📂 Project Structure :
 
 ai_impact_on_jobs/
 |
-|-- ai_human_jobs_analysis.sql      | Main SQL analysis file
+|- ai_human_jobs_analysis.sql      | Main SQL analysis file
 |
-|-- database/
-|   |-- schema.sql                 | CREATE DATABASE & TABLE scripts
-|   |-- data/
-|       |-- ai_jobs.csv             | AI jobs table
-|       |-- human_jobs.csv          | Human jobs table
+|- database/
+|   |- schema.sql                 | CREATE DATABASE & TABLE scripts
+|   |- data/
+|       |- ai_jobs.csv             | AI jobs table
+|       |- human_jobs.csv          | Human jobs table
 |
-|-- screenshots/
+|- screenshots/
 |   |-- query_outputs.png          | Sample query results
 |
-|-- README.md
+|- README.md
 
 
-## 🗄️ DATABASE DESCRIPTION
+## 🗄️ Database Description :
 
 **Database Name** : ai_impact_on_jobs_db
 
-The database contains two tables:
+#### The database contains two tables:
 
 --------------------------------------
 1️⃣ AI JOBS TABLE : ai_jobs
@@ -60,9 +60,9 @@ The database contains two tables:
 | job_openings_2024          | INT                  | Current job openings
 | projected_openings_2030    | INT                  | Projected openings in 2030
 
-## 🛠️ HOW TO SET UP
+## 🛠️ How to set up 
 
-1️⃣ CREATE DATABASE & TABLES
+#### 1️⃣ CREATE DATABASE & TABLES
 
 #### Run in MySQL:
 
@@ -74,7 +74,7 @@ The database contains two tables:
 
 --------------------------------------------------
 
-2️⃣ INSERT JOB DATA
+#### 2️⃣ Insert Job Data
 
 - Import CSV files using MySQL Workbench
                     OR
@@ -82,7 +82,7 @@ The database contains two tables:
 
 --------------------------------------------------
 
-3️⃣ RUN ANALYSIS QUERIES
+#### 3️⃣ Run Analysis Queries
 
 Execute:
 ai_human_jobs_analysis.sql
@@ -120,7 +120,7 @@ This will generate insights on:
 - Common Table Expressions (CTEs)
 - Aggregations & UNION queries
 
-## 📈 SAMPLE INSIGHTS
+## 📈 Sample insights :
 
 - AI roles in technology, finance, and healthcare dominate high salaries
 - Human-centric roles remain essential in healthcare, education, construction
@@ -128,13 +128,13 @@ This will generate insights on:
 - Hybrid roles combining AI expertise and human judgment are most lucrative
 - AI disruption is highest in tech, healthcare, finance, manufacturing
 
-## 🛠️ TOOLS & TECHNIQUE USED
+## 🛠️ Tools & Technique used :
 
 - Database       : MySQL
 - Query Language : SQL
 - Techniques     : Joins, CTEs, Subqueries, Aggregations
 
-## 🧾 CONCLUSION
+## 🧾 Conclusion :
 
 This project demonstrates how AI is reshaping the workforce while highlighting
 the continued importance of human skills.
