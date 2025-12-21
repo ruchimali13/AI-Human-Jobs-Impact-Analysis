@@ -1,68 +1,160 @@
-# 🤖 AI & Human Jobs Impact Analysis
+################################################################################
+# 🤖 AI & HUMAN JOBS IMPACT ANALYSIS 
+################################################################################
 
-**Project Name:** ai_impact_on_jobs_db  
-**Domain:** SQL | Data Analytics | Workforce Analysis  
+### Project Name : ai_impact_on_jobs_db
 
----
+**Objective** :
+Analyze the impact of Artificial Intelligence on the job market by comparing
+AI-driven roles and traditional human jobs across industries, salaries,
+automation levels, and future growth projections (2024–2030).
 
-## 📌 Objective
+################################################################################
+# 📂 PROJECT STRUCTURE
+################################################################################
 
-Analyze the impact of Artificial Intelligence on the job market by comparing **AI-driven roles** and **traditional human jobs** across industries, salaries, automation levels, and projected future growth.
+ai_impact_on_jobs/
+|
+|-- ai_human_jobs_analysis.sql      | Main SQL analysis file
+|
+|-- database/
+|   |-- schema.sql                 | CREATE DATABASE & TABLE scripts
+|   |-- data/
+|       |-- ai_jobs.csv             | AI jobs table
+|       |-- human_jobs.csv          | Human jobs table
+|
+|-- screenshots/
+|   |-- query_outputs.png          | Sample query results
+|
+|-- README.md
 
----
+################################################################################
+# 🗄️ DATABASE DESCRIPTION
+################################################################################
 
-## 📊 Project Overview
+Database Name : ai_impact_on_jobs_db
 
-This project explores the evolving landscape of AI and human-driven jobs using SQL. It provides insights into:
+The database contains two tables:
 
-- 💰 Top-paying AI and human jobs  
-- 🏭 Industry distribution and overlap  
-- 🤖 Automation levels and their impact  
-- 📈 Salary comparisons  
-- 🔮 Job growth projections up to 2030  
+--------------------------------------
+1️⃣ AI JOBS TABLE : ai_jobs
+--------------------------------------
+| Column                  | Type          | Description
+|-------------------------|---------------|------------------------------------
+| ai_job_id               | INT           | Unique AI job identifier
+| job_title               | VARCHAR(100)  | Job title
+| industry                | VARCHAR(100)  | Industry of the job
+| ai_tool_used            | VARCHAR(100)  | AI tool or technology used
+| automation_level        | VARCHAR(50)   | Low / Medium / High automation
+| median_salary_usd       | INT           | Median salary in USD
+| job_openings_2024       | INT           | Current job openings
+| projected_openings_2030 | INT           | Projected openings in 2030
 
-The analysis helps identify lucrative career opportunities, industries affected by AI adoption, and roles where human skills remain critical.
+--------------------------------------
+2️⃣ HUMAN JOBS TABLE : human_jobs
+--------------------------------------
+| Column                     | Type                 | Description
+|----------------------------|----------------------|-----------------------------------
+| human_job_id               | INT                  | Primary key, unique identifier
+| job_title                  | VARCHAR(100)         | Job title
+| industry                   | VARCHAR(100)         | Industry of the job
+| key_human_skill            | VARCHAR(100)         | Essential human skill
+| emotional_or_physical_labor| ENUM('True','False') | Requires emotional/physical labor
+| median_salary_usd          | INT                  | Median salary in USD
+| job_openings_2024          | INT                  | Current job openings
+| projected_openings_2030    | INT                  | Projected openings in 2030
 
----
+################################################################################
+# 🛠️ HOW TO SET UP
+################################################################################
 
-## 🗄️ Database Schema
+1️⃣ CREATE DATABASE & TABLES
 
-### AI Jobs Table (`ai_jobs`)
+Run in MySQL:
 
-| Column                  | Type          | Description                         |
-|-------------------------|---------------|-------------------------------------|
-| ai_job_id               | INT           | Unique AI job identifier            |
-| job_title               | VARCHAR(100)  | Job title                           |
-| industry                | VARCHAR(100)  | Industry of the job                 |
-| ai_tool_used            | VARCHAR(100)  | AI tool or technology used          |
-| automation_level        | VARCHAR(50)   | Low / Medium / High automation      |
-| median_salary_usd       | INT           | Median salary in USD                |
-| job_openings_2024       | INT           | Current job openings (2024)         |
-| projected_openings_2030 | INT           | Projected openings in 2030          |
+CREATE DATABASE ai_impact_on_jobs_db;
+USE ai_impact_on_jobs_db;
 
----
+Execute table creation scripts from:
+schema.sql
 
-### Human Jobs Table (`human_jobs`)
+--------------------------------------------------
 
-| Column                     | Type                 | Description                                  |
-|----------------------------|----------------------|----------------------------------------------|
-| human_job_id               | INT                  | Primary key, unique identifier              |
-| job_title                  | VARCHAR(100)         | Job title                                   |
-| industry                   | VARCHAR(100)         | Industry of the job                         |
-| key_human_skill            | VARCHAR(100)         | Essential human skill                       |
-| emotional_or_physical_labor| ENUM('True','False') | Requires emotional or physical labor        |
-| median_salary_usd          | INT                  | Median salary in USD                        |
-| job_openings_2024          | INT                  | Current job openings (2024)                |
-| projected_openings_2030    | INT                  | Projected openings in 2030                 |
+2️⃣ INSERT JOB DATA
 
----
+| Import CSV files using MySQL Workbench
+| OR
+| Insert records manually using SQL INSERT statements
 
-## 🔍 Key SQL Queries & Insights
+--------------------------------------------------
 
-### 1️⃣ Top 5 Highest Paying AI Jobs
+3️⃣ RUN ANALYSIS QUERIES
 
-```sql
-SELECT job_title, median_salary_usd
-FROM ai_jobs
-ORDER BY median_salary_usd DESC
-LIMIT 5;
+Execute:
+ai_human_jobs_analysis.sql
+
+This will generate insights on:
+| Salaries
+| Automation levels
+| Industry trends
+| Future job growth
+
+################################################################################
+# 📊 ANALYSIS PERFORMED
+################################################################################
+
+✔ SALARY ANALYSIS
+| Top 5 highest-paying AI jobs
+| Highest-paying job (AI + Human combined)
+| Average salary comparison (AI vs Human)
+
+✔ INDUSTRY INSIGHTS
+| Human jobs count by industry
+| Industries most affected by AI
+| Industry overlap between AI and human roles
+
+✔ AUTOMATION ANALYSIS
+| AI jobs grouped by automation level
+| High automation roles and salary impact
+
+✔ JOB GROWTH PROJECTIONS
+| Jobs growing from 2024 → 2030
+| Total job openings growth for AI roles
+
+✔ ADVANCED SQL TECHNIQUES
+| INNER JOIN & LEFT JOIN
+| Subqueries
+| Common Table Expressions (CTEs)
+| Aggregations & UNION queries
+
+################################################################################
+# 📈 SAMPLE INSIGHTS
+################################################################################
+
+| AI roles in technology, finance, and healthcare dominate high salaries
+| Human-centric roles remain essential in healthcare, education, construction
+| AI job openings are projected to grow faster than human roles
+| Hybrid roles combining AI expertise and human judgment are most lucrative
+| AI disruption is highest in tech, healthcare, finance, manufacturing
+
+################################################################################
+# 🛠️ TOOLS & TECHNIQUE USED
+################################################################################
+
+| Database       : MySQL
+| Query Language : SQL
+| Techniques     : Joins, CTEs, Subqueries, Aggregations
+
+################################################################################
+# 🧾 CONCLUSION
+################################################################################
+
+This project demonstrates how AI is reshaping the workforce while highlighting
+the continued importance of human skills.
+
+It serves as a strong SQL analytics project for students, analysts, and
+organizations planning for the future of work.
+
+################################################################################
+# ⭐ END OF README
+################################################################################
