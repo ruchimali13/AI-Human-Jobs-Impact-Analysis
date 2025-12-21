@@ -1,6 +1,5 @@
-################################################################################
+
 # 🤖 AI & HUMAN JOBS IMPACT ANALYSIS 
-################################################################################
 
 ### Project Name : ai_impact_on_jobs_db
 
@@ -9,9 +8,7 @@ Analyze the impact of Artificial Intelligence on the job market by comparing
 AI-driven roles and traditional human jobs across industries, salaries,
 automation levels, and future growth projections (2024–2030).
 
-################################################################################
-# 📂 PROJECT STRUCTURE
-################################################################################
+## 📂 PROJECT STRUCTURE
 
 ai_impact_on_jobs/
 |
@@ -28,9 +25,8 @@ ai_impact_on_jobs/
 |
 |-- README.md
 
-################################################################################
-# 🗄️ DATABASE DESCRIPTION
-################################################################################
+
+## 🗄️ DATABASE DESCRIPTION
 
 Database Name : ai_impact_on_jobs_db
 
@@ -64,9 +60,7 @@ The database contains two tables:
 | job_openings_2024          | INT                  | Current job openings
 | projected_openings_2030    | INT                  | Projected openings in 2030
 
-################################################################################
-# 🛠️ HOW TO SET UP
-################################################################################
+## 🛠️ HOW TO SET UP
 
 1️⃣ CREATE DATABASE & TABLES
 
@@ -99,9 +93,7 @@ This will generate insights on:
 | Industry trends
 | Future job growth
 
-################################################################################
-# 📊 ANALYSIS PERFORMED
-################################################################################
+## 📊 ANALYSIS PERFORMED
 
 ✔ SALARY ANALYSIS
 | Top 5 highest-paying AI jobs
@@ -127,9 +119,7 @@ This will generate insights on:
 | Common Table Expressions (CTEs)
 | Aggregations & UNION queries
 
-################################################################################
-# 📈 SAMPLE INSIGHTS
-################################################################################
+## 📈 SAMPLE INSIGHTS
 
 | AI roles in technology, finance, and healthcare dominate high salaries
 | Human-centric roles remain essential in healthcare, education, construction
@@ -137,17 +127,13 @@ This will generate insights on:
 | Hybrid roles combining AI expertise and human judgment are most lucrative
 | AI disruption is highest in tech, healthcare, finance, manufacturing
 
-################################################################################
-# 🛠️ TOOLS & TECHNIQUE USED
-################################################################################
+## 🛠️ TOOLS & TECHNIQUE USED
 
 | Database       : MySQL
 | Query Language : SQL
 | Techniques     : Joins, CTEs, Subqueries, Aggregations
 
-################################################################################
-# 🧾 CONCLUSION
-################################################################################
+## 🧾 CONCLUSION
 
 This project demonstrates how AI is reshaping the workforce while highlighting
 the continued importance of human skills.
@@ -155,6 +141,5 @@ the continued importance of human skills.
 It serves as a strong SQL analytics project for students, analysts, and
 organizations planning for the future of work.
 
-################################################################################
-# ⭐ END OF README
-################################################################################
+## ⭐ END OF README
+
